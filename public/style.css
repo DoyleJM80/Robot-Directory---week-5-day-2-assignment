@@ -6,7 +6,7 @@
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .users {
@@ -15,6 +15,7 @@
   flex: 1 1 20%;
   margin: 10px;
   height: 350px;
+  max-width: 320px;
 }
 
 .center {
@@ -29,4 +30,23 @@ div h3, div a {
 
 a {
   text-decoration: none;
+}
+
+.round-user {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: thin;
+}
+
+.profile-container {
+  height: 400px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.profile-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
 }
