@@ -7,14 +7,14 @@
   </head>
   <body class="profile-body">
     <div class="profile-container">
-      <section>
+      <section class="top-section">
           <img src="{{avatar}}" alt="User Picture" class="round-user">
           <h1>{{name}}</h1>
-          <h3><span>{{address.city}}</span>, <span>{{address.country}}</span> | <span>{{job}}</span>, <span>{{company}}</span><span>{{email}}</span> | <span>{{phone}}</span></h3>
+          <p class="profile-p"><span>{{address.city}}</span>, <span>{{address.country}}</span> | <span>{{job}}</span>, <span>{{company}}</span> <span>{{email}}</span> | <span>{{phone}}</span></p>
       </section>
-      <section>
-          <h3>Education <span>{{university}}</span></h3>
-          <h3>Skills {{skills}}</h3>
+      <section class="bottom-section">
+          <h3>Education <span class="education-span">{{university}}</span></h3>
+          <h3 class="skills">Skills <span class="span-skills">{{skills}}</span></h3>
       </section>
     </div>
   </body>
