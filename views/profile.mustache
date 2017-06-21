@@ -10,7 +10,7 @@
       <section class="top-section">
           <img src="{{avatar}}" alt="User Picture" class="round-user">
           <h1>{{name}}</h1>
-          <p class="profile-p"><span>{{address.city}}</span>, <span>{{address.country}}</span> | <span>{{job}}</span>, <span>{{company}}</span> <span>{{email}}</span> | <span>{{phone}}</span></p>
+          <p class="profile-p"><span>{{address.city}}</span>, <span>{{address.country}}</span> | <span>{{job}}</span>, <span>{{company}}<span class="red">{{^company}}Available for hire{{/company}}</span></span> <span>{{email}}</span> | <span>{{phone}}</span></p>
       </section>
       <section class="bottom-section">
           <h3>Education <span class="education-span">{{university}}</span></h3>

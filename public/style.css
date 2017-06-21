@@ -15,7 +15,7 @@
   border-width: thin;
   flex: 1 1 20%;
   margin: 10px;
-  height: 400px;
+  height: 430px;
   max-width: 320px;
 }
 
@@ -87,4 +87,8 @@ h1 {
 
 .span-skills {
   margin-left: 35px;
+}
+
+.red {
+  color: red;
 }
